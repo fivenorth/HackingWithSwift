@@ -27,6 +27,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             Form {
+                Section("When do you want to wake up?", content: {
+                    DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
+                        .labelsHidden()
+                        })
                 VStack(alignment: .leading, spacing: 0) {
                     Text("When do you want to wake up?")
                         .font(.headline)
