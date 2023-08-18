@@ -1,14 +1,14 @@
 //
-//  GuessTheFlagApp.swift
-//  GuessTheFlag
+//  ConverterApp.swift
+//  Converter
 //
-//  Created by Scott Johnson on 8/9/23.
+//  Created by Paul Hudson on 18/10/2021.
 //
 
 import SwiftUI
 
 @main
-struct GuessTheFlagApp: App {
+struct ConverterApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
